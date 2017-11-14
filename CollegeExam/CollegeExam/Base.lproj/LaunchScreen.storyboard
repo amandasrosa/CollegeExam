@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchScreen" translatesAutoresizingMaskIntoConstraints="NO" id="6fw-rZ-d2c">
+                                <rect key="frame" x="0.0" y="63" width="375" height="541"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="© 2017 AMANDA ROSA ALL RIGHTS RESERVED" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V13-xi-3hL">
+                                <rect key="frame" x="47" y="575" width="280" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.27468097667350677" green="0.25853168945165245" blue="0.48378805051813467" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="6fw-rZ-d2c" secondAttribute="trailing" id="1NO-tz-C1A"/>
+                            <constraint firstItem="6fw-rZ-d2c" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="43" id="22F-d1-guA"/>
+                            <constraint firstItem="V13-xi-3hL" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="555" id="6bY-2G-rsU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="V13-xi-3hL" secondAttribute="bottom" constant="71" id="Zbe-eY-Kih"/>
+                            <constraint firstItem="6fw-rZ-d2c" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="cVh-6n-EWy"/>
+                            <constraint firstItem="V13-xi-3hL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="47" id="gOF-0e-6Oo"/>
+                            <constraint firstItem="6fw-rZ-d2c" firstAttribute="centerX" secondItem="V13-xi-3hL" secondAttribute="centerX" id="lVh-Y8-ocK"/>
+                            <constraint firstItem="6fw-rZ-d2c" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="spI-g4-j7h"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="launchScreen" width="313" height="313"/>
+    </resources>
+</document>
